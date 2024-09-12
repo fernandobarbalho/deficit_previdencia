@@ -67,3 +67,7 @@ remuneracao_servidores_inativos %>%
             media_remuneracao_liquida_total = mean(remuneracao_apos_deducoes_obrigatorias_r),
             mediana_remuneracao_liquida_total = median(remuneracao_apos_deducoes_obrigatorias_r),
             quantidade_inativos_remunerados = n())
+
+
+
+saveRDS(remuneracao_servidores_inativos,"remuneracao_servidores_inativos.rds")
